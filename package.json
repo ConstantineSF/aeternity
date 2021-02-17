@@ -1,0 +1,18 @@
+{
+  "name": "aeternity_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome-with-extension": "npx cypress run -b chrome",
+    "chrome-without-extension": "npx cypress run -b chrome -c pluginsFile=cypress/plugins/index_without_extension.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-browser-extension-plugin": "^0.1.0",
+    "uuid": "^8.3.2"
+  }
+}

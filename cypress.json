@@ -1,0 +1,21 @@
+{
+    "defaultCommandTimeout": 7000,
+    "pageLoadTimeout": 20000,
+    "video": true,
+    "videoCompression": false,
+    "baseUrl": "https://superhero.com/",
+    "compilerOptions": {
+      "allowJs": true,
+      "types": [
+        "cypress"
+      ]
+    },
+    "viewportWidth": 1920,
+    "viewportHeight": 1400,
+    "retries": {
+      "runMode": 1,
+      "openMode": 0
+    },
+    "chromeWebSecurity": false
+  }
+  
